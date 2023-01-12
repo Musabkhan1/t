@@ -14,7 +14,7 @@ function AppRouter() {
     <div>
       <BrowserRouter>
         <Routes>
-          <Route path="/home" element={<Home />} />
+          <Route path="/" element={<Home />} />
         </Routes>
         <Routes>
           <Route path="/about" element={<About />} />
